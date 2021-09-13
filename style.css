@@ -1,0 +1,603 @@
+
+@media screen and (max-width: 880px) {
+#containerPrimario {
+
+padding: 1px;
+height: 1500px;
+width: 600px;
+
+
+  
+}
+#containerSec {
+    padding: 1px;
+    margin-top: 250px;
+    background: rgb(194, 154, 95);
+    height: 1300px;
+    width: 600px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+#conta {
+    font-size: 20pt;
+    font-family: monospace;
+    margin-top: 100px;
+    margin-left: 30px;
+    color: hsl(7, 49%, 27%);
+
+
+}
+#iconConta {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 25px;
+}
+#quantidade {
+    font-size: 30pt;
+    font-family: 'Times New Roman', Times, serif;
+    color:hsl(7, 49%, 27%);
+    border: none;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: rgb(235, 252, 252) ;
+    width: 500px;
+    height: 80px;
+}
+#quantidade img {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+#quantidade img, h4 {
+    display:inline-flexbox;
+    
+}
+#quantidade h4 {
+    font-size: 30pt;
+    font-family: Space Mono;
+    margin-left: 350px;
+    margin-top: -35px;
+    color:hsl(7, 49%, 27%);
+}
+#iconeP {
+position: absolute;
+margin-left: 40px;
+margin-top: 30px;
+}
+
+
+
+
+
+#containerSel h3{
+    margin-top: 50px;
+    margin-left: 30px;
+     color: hsl(7, 49%, 27%);
+     font-size: 25pt;
+}
+#opções {
+   width:600px;
+   height: 250px;
+    font-size: 35pt;
+    color: hsl(46, 76%, 61%);
+    
+}
+#op1 {
+    
+    font-family: Space Mono;
+    margin-left: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: hsl(32, 49%, 29%);
+    margin-top: 20px;
+}
+#op2 {
+    font-family: Space Mono;
+    margin-left: 40px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: hsl(32, 49%, 29%);
+    margin-top: 20px;
+}
+
+#custom {
+    font-size: 23pt;
+    font-family: Space Mono;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 130px;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(7, 49%, 27%);
+    margin-top: 20px;
+}
+#icoPorcentagem {
+    position: absolute;
+    margin-top: 118px;
+    margin-left: 155px;
+    width: 70px;
+    height: 40px;
+}
+
+
+#containerTerc {
+    width: 600px;
+    height: 400px;
+    margin-left: 0px;
+    margin-top: 30px;
+    background-color:hsl(32, 49%, 29%);
+    border-radius: 15px;
+}
+#texto3a {
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 10px;
+    color: hsl(46, 76%, 61%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+}
+#texto3b {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: hsl(46, 76%, 61%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+}
+#texto3a h1{
+  
+    color: hsl(186, 12%, 49%);
+    
+}
+#texto3b h1{
+    
+    color: hsl(186, 12%, 49%);
+    
+}
+
+#valor1 {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 35px;
+    font-size: 35pt;
+     color:  hsl(81, 76%, 61%);
+      font-family: 'Times New Roman', Times, serif;
+}
+#valor2 {
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 220px;
+    font-size: 35pt;
+     color:  hsl(81, 76%, 61%);
+      font-family: 'Times New Roman', Times, serif;
+}
+#iconFinal1 {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 25px;
+    color:  hsl(172, 67%, 45%);
+
+}
+#botReset {
+     font-family: Space Mono;
+    font-size: 30pt;
+    border: none;
+    border-radius: 10px;
+    margin-top: 300px;
+    margin-left: 50px;
+    background-color:hsl(46, 76%, 61%);
+    width: 450px;
+    height: 80px;
+    color: hsl(7, 49%, 27%);
+}
+
+ #logo img{
+    width: 150px;
+    margin-top: 100px;
+    margin-left: 250px; 
+}
+#logo {
+    height: 20px;
+}
+
+
+}
+@media screen and (min-width: 881px) {
+#containerPrimario {
+    margin-left: none;
+    margin-right: none;
+
+height: 1100px;
+width: 1443px;
+}
+
+#containerSec {
+    position: relative;
+    padding: 1px;
+    margin-top: 250px;
+    background: rgb(194, 154, 95);
+    height: 500px;
+   width: 810px;
+    border-radius: 30px;
+      
+}
+#conta {
+    font-size: 20pt;
+    font-family: Space Mono;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: hsl(7, 49%, 27%);
+
+
+}
+#iconConta {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 15px;
+}
+#quantidade {
+    font-size: 30pt;
+    font-family: Space Mono;
+    color:hsl(7, 49%, 27%);
+    border: none;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: rgb(235, 252, 252) ;
+    width: 300px;
+    height: 50px;
+}
+#quantidade img {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+
+#iconeP {
+position: absolute;
+margin-left: 40px;
+margin-top: 25px;
+}
+
+#containerSel h3{
+    margin-top: 20px;
+    margin-left: 30px;
+     color: hsl(7, 49%, 27%);
+     font-size: 20pt;
+}
+#opções {
+    display: inline-flex;
+    width:500px;
+    height: 90px;
+    color: hsl(46, 76%, 61%);
+    
+}
+#op1 {
+  
+    font-family: Space Mono;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: hsl(32, 49%, 29%);
+    margin-top: 20px;
+    font-size: 30pt;
+}
+#op2 {
+    font-family: Space Mono;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: hsl(32, 49%, 29%);
+    margin-top: 20px;
+    font-size: 30pt;
+}
+
+
+#custom {
+    font-size: 22pt;
+    font-family: Space Mono;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 130px;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(7, 49%, 27%);
+    margin-top: 20px;
+}
+#icoPorcentagem {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 155px;
+    width: 65px;
+    height: 35px;
+}
+
+
+
+#containerTerc {
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    margin-left: 360px;
+    margin-top: -170px;
+    background-color:hsl(32, 49%, 29%);
+    border-radius: 15px;
+}
+#texto3a {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 10px;
+    color: hsl(46, 76%, 61%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+#texto3b {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: hsl(46, 76%, 61%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+#texto3a h1{
+  
+    color: hsl(46, 76%, 61%);
+    
+}
+#texto3b h1{
+  
+    color: hsl(46, 76%, 61%);
+    
+}
+
+#valor1 {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 10px;
+    font-size: 35pt;
+     color:  hsl(81, 76%, 61%);
+      font-family: 'Times New Roman', Times, serif;
+}
+#valor2 {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 285px;
+    font-size: 35pt;
+     color:  hsl(81, 76%, 61%);
+      font-family: 'Times New Roman', Times, serif;
+}
+#iconFinal1 {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 25px;
+    color:  hsl(7, 49%, 27%);
+}
+#botReset {
+    border: none;
+    border-radius: 10px;
+    margin-top: 370px;
+    margin-left: 45px;
+    background-color:hsl(46, 76%, 61%);
+    width: 250px;
+    height: 70px;
+    font-size: 25pt;
+    color: hsl(7, 49%, 27%);
+}
+
+ #logo img{
+    width: 200px;
+   margin-top: 10px;
+    margin-left: 600px; 
+}
+#logo {
+    height: 20px;
+}
+}
+
+@media screen and (min-width: 1402px) {
+#containerPrimario {
+
+height: 1100px;
+width: 1600px;
+}
+
+#containerSec {
+    padding: 1px;
+    margin-top: 250px;
+    background: rgb(194, 154, 95);
+    height: 600px;
+    width: 2500px;
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+#conta {
+    font-size: 20pt;
+    font-family: Space Mono;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: hsl(7, 49%, 27%);
+
+
+}
+#iconConta {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 15px;
+}
+#quantidade {
+    font-size: 30pt;
+    font-family: Space Mono;
+    color:hsl(7, 49%, 27%);
+    border: none;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: rgb(235, 252, 252) ;
+    width: 300px;
+    height: 50px;
+}
+#quantidade img {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+
+#iconeP {
+position: absolute;
+margin-left: 40px;
+margin-top: 25px;
+}
+
+#containerSel h3{
+    margin-top: 20px;
+    margin-left: 30px;
+     color: hsl(7, 49%, 27%);
+     font-size: 20pt;
+}
+#opções {
+    display: inline-flex;
+    width:500px;
+    height: 90px;
+    color: hsl(46, 76%, 61%);
+    
+}
+#op1 {
+  
+    font-family: Space Mono;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+     background-color:hsl(32, 49%, 29%);
+    margin-top: 20px;
+    font-size: 30pt;
+}
+#op2 {
+    font-family: Space Mono;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    background-color:hsl(32, 49%, 29%);
+    margin-top: 20px;
+    font-size: 30pt;
+}
+
+
+#custom {
+    font-size: 22pt;
+    font-family: Space Mono;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 130px;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(7, 49%, 27%);
+    margin-top: 20px;
+}
+#icoPorcentagem {
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 155px;
+    width: 65px;
+    height: 35px;
+}
+
+
+
+#containerTerc {
+    position: absolute;
+    width: 650px;
+    height: 550px;
+    margin-left: 630px;
+    margin-top: -170px;
+    background-color:hsl(32, 49%, 29%);
+    border-radius: 15px;
+}
+#texto3a {
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 10px;
+    color: hsl(46, 76%, 61%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+}
+#texto3b {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 10px;
+    color: hsl(46, 76%, 61%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+}
+#texto3a h1{
+  
+    color: hsl(46, 76%, 61%);
+    
+}
+#texto3b h1{
+  
+    color: hsl(46, 76%, 61%);
+    
+}
+
+#valor1 {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 30px;
+    font-size: 45pt;
+     color:  hsl(81, 76%, 61%);
+      font-family: 'Times New Roman', Times, serif;
+}
+#valor2 {
+    position: absolute;
+    margin-left: 400px;
+    margin-top: 350px;
+    font-size: 45pt;
+     color:  hsl(81, 76%, 61%);
+      font-family: 'Times New Roman', Times, serif;
+}
+#iconFinal1 {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 25px;
+    color: hsl(7, 49%, 27%);
+}
+#botReset {
+    font-family: Space Mono;
+    font-size: 30pt;
+    border: none;
+    border-radius: 10px;
+    margin-top: 460px;
+    margin-left: 90px;
+    background-color:hsl(46, 76%, 61%);
+    width: 450px;
+    height: 80px;
+    color: hsl(7, 49%, 27%);
+    
+}
+
+ #logo img{
+    width: 250px;
+   margin-top: 10px;
+    margin-left: 700px; 
+}
+#logo {
+    height: 20px;
+}
+}
