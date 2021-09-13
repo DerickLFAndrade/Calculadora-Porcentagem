@@ -14,17 +14,20 @@
     <title>Calculadora de Porcentagem</title>
 </head>
 <body>
+    
 
-
-        
 <section class="container-fluid" id="containerPrimario">
-    <section id="logo"><img src="logo-1 (2).png" alt="" id="logoImg" width="300px"></section>
+    
+    <section id="logo"><img src="logo-1 (2).png" alt="" id="logoImg" width="300px"><h1><b>Calculadora de Porcentagem</b></h1></section>
+    
     <section class="container" id="containerSec">
         <div id="conta"><B>VALOR</B>:</div>
         <img src="icon-dollar.svg" alt="" width="18px" id="iconConta"><input id="quantidade"></input>
         <section id="containerSel">
             <div id="textoSel">
-                <h3><b>Valor de acréscimo %</b></h3>
+                <h3><b>Acréscimo/Desconto </b></h3>
+                <p> Em caso de desconto digitar o <br> valor negativo no campo "Escolher"</p>
+               
             </div>
 
             <section id="opções">
@@ -32,7 +35,7 @@
                     <div id="op1"><b>5%</b></div>
                     <div id="op2"><b>10%</b></div>
                    
-                    <input type="text" placeholder="Escolher" id="custom"><img src="percentage-icon.png" id="icoPorcentagem"></input>
+                    <input type="text" placeholder="Escolher" id="custom"><p id="icoPorcentagem"><b>%</b></p></input>
                 </div>
        
 

@@ -8,6 +8,8 @@ var botao = document.getElementById("botReset")
 var vl1 = document.getElementById("valor1")
 var vl2 = document.getElementById("valor2")
 var valid 
+
+var dec = document.getElementById('texto3b')
 $('#logoImg').fadeOut(0)
 $('#logoImg').fadeIn(1000)
 
@@ -102,6 +104,7 @@ function resetar() {
    
     vl1.innerHTML = 'R$ 0.00'
     vl2.innerHTML = 'R$ 0.00'
+    dec.innerHTML = '<b>Acréscimo:</b>'
 }
 
 
@@ -121,8 +124,8 @@ function calc() { //Calcula a porcentagem selecionada da gorjeta de acordo com o
             opval1 += porcentagem
             resultado = opval1
 
-            vl1.innerHTML = `$${porcentagem.toFixed(2)}`
-            vl2.innerHTML = `$${resultado.toFixed(2)}`
+            vl1.innerHTML = `R$${porcentagem.toFixed(2)}`
+            vl2.innerHTML = `R$${resultado.toFixed(2)}`
 
 
         }
@@ -131,24 +134,35 @@ function calc() { //Calcula a porcentagem selecionada da gorjeta de acordo com o
             porcentagem = opval1 * 10 / 100
             opval1 += porcentagem
             resultado = opval1
-            vl1.innerHTML = `$${porcentagem.toFixed(2)}`
-            vl2.innerHTML = `$${resultado.toFixed(2)}`
-
-
+            vl1.innerHTML = `R$${porcentagem.toFixed(2)}`
+            vl2.innerHTML = `R$${resultado.toFixed(2)}`
         }
 
         else if (custom.style.border) {
+        
             opval1 = parseFloat(conta.value)
             opvalCustom = parseFloat(custom.value)
-            porcentagem = opval1 * opvalCustom / 100
-            opval1 += porcentagem
-            resultado = opval1
-            if (conta.value && custom.value) {
-                vl1.innerHTML = `$${porcentagem.toFixed(2)}`
-                vl2.innerHTML = `$${resultado.toFixed(2)}`
-            }
-        }
+           
+            if (Math.sign(opvalCustom) == 1 ) {
+                porcentagem = opval1 * opvalCustom / 100
+                opval1 += porcentagem 
+                resultado = opval1
+            } 
 
+            else if (Math.sign(opvalCustom) == -1) {
+                
+                porcentagem = opval1 * opvalCustom / 100
+               resultado = opval1+porcentagem
+                dec.innerHTML = '<b>Desconto:</b>'
+            }
+
+        }
+           
+        
+        if (conta.value && custom.value) {
+            vl1.innerHTML = `R$${porcentagem.toFixed(2)}`
+            vl2.innerHTML = `R$${resultado.toFixed(2)}`
+        }
 
     } 
 } 
