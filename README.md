@@ -41,7 +41,7 @@ Determinação e foco são elementos fundamentais para realização de qualquer 
 
 Um projeto considerado simples, porém requer determinação para completar, pois há momentos que aparecem erros que são quase imperceptíveis e que a IDE as vezes não detectam então fica por conta de achar na garra. Esse projeto gastei cerca de 10 horas para concluir e cada conclusão de um projeto é mais  uma vitória conquistada.
 
- 		    ------------------------------ <h4>Sendo assim:</h4> ----------------------------------
+ 							 <h4>Sendo assim:</h4>
 
 ​							 <h3>Não desista!</h3> 
 
