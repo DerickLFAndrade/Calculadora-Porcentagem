@@ -3,7 +3,7 @@
 #containerPrimario {
 
 padding: 1px;
-margin-left: 150px;
+
 width: 540px;
 
 
@@ -13,11 +13,11 @@ width: 540px;
     padding: 1px;
     margin-top: 250px;
     background: rgb(194, 154, 95);
-    height: 700px;
-    width: 650px;
+    height: 800px;
+    width: 815px;
     border-radius: 30px;
-    margin-left: auto;
-    margin-right: auto;    
+    margin-left: 50px;
+     
 }
 #conta {
     font-size: 20pt;
@@ -44,7 +44,7 @@ width: 540px;
     margin-top: 10px;
     margin-left: 30px;
     background-color: rgb(235, 252, 252) ;
-    width: 500px;
+    width: 750px;
     height: 80px;
 }
 #quantidade img {
@@ -74,7 +74,7 @@ margin-top: 30px;
 
 #textoSel h3{
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 210px;
      color: hsl(7, 49%, 27%);
      font-size: 25pt;
 }
@@ -82,12 +82,12 @@ margin-top: 30px;
 #textoSel p{
     
     margin-top: 50px;
-    margin-left: 75px;
+    margin-left: 220px;
      color: hsl(9, 10%, 39%);
      font-size: 17pt;
 }
 #opções {
-   width:600px;
+   width:700px;
    height: 250px;
     font-size: 35pt;
     color: hsl(46, 76%, 61%);
@@ -128,15 +128,15 @@ margin-top: 30px;
 #icoPorcentagem {
   color: hsl(7, 49%, 27%);
     position: absolute;
-    margin-top: 100px;
-    margin-left: 160px;
+    margin-top: 20px;
+    margin-left: 640px;
     font-size: 32pt;
     height: 40px;
 }
 
 
 #containerTerc {
-    width: 650px;
+    width: 815px;
     height: 400px;
     margin-left: 0px;
     margin-top: 30px;
@@ -145,20 +145,20 @@ margin-top: 30px;
 }
 #texto3a {
     position: absolute;
-    margin-top: 230px;
-    margin-left: 10px;
+    margin-top: 200px;
+    margin-left: 100px;
     color: hsl(46, 76%, 61%);
     font-family: 'Times New Roman', Times, serif;
     width: 400px;
-    font-size: 25pt;
+    font-size: 35pt;
 }
 #texto3b {
     position: absolute;
     margin-top: 50px;
-    margin-left: 10px;
+    margin-left: 100px;
     color: hsl(46, 76%, 61%);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25pt;
+    font-size: 35pt;
 }
 #texto3a h1{
   
@@ -173,19 +173,19 @@ margin-top: 30px;
 
 #valor1 {
     position: absolute;
-    margin-left: 320px;
+    margin-left: 420px;
     width: 500px;
     margin-top: 45px;
-    font-size: 25pt;
+    font-size: 35pt;
      color:  hsl(81, 76%, 61%);
       font-family: 'Times New Roman', Times, serif;
 }
 #valor2 {
     position: absolute;
     width: 500px;
-    margin-left: 320px;
-    margin-top: 240px;
-    font-size: 25pt;
+    margin-left: 420px;
+    margin-top: 210px;
+    font-size: 35pt;
      color:  hsl(81, 76%, 61%);
       font-family: 'Times New Roman', Times, serif;
 }
@@ -202,7 +202,7 @@ margin-top: 30px;
     border: none;
     border-radius: 10px;
     margin-top: 300px;
-    margin-left: 50px;
+    margin-left: 150px;
     background-color:hsl(46, 76%, 61%);
     width: 450px;
     height: 80px;
@@ -212,7 +212,7 @@ margin-top: 30px;
  #logo img{
     width: 150px;
     margin-top: 80px;
-    margin-left: 250px; 
+    margin-left: 380px; 
 }
 #logo {
     
@@ -222,7 +222,9 @@ margin-top: 30px;
     text-align: center;
     color: hsl(32, 49%, 29%);
     font-family: monospace;
-    margin-left: 100px ;
+    margin-left: 200px ;
+    position: absolute;
+    width: 500px;
     
 }
 
