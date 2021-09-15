@@ -1,7 +1,7 @@
 
-@media screen and (max-width: 510px) {
+@media screen and (max-width: 575px) {
 #containerPrimario {
-width: 100%;
+width: 100;
 height: 500px;  
 }
 #containerSec {
@@ -9,7 +9,7 @@ height: 500px;
     margin-top: 120px;
     background: rgb(194, 154, 95);
     height: 500px;
-    width: 100%;
+    width: 500px;
     border-radius: 30px;
    
      
@@ -155,6 +155,7 @@ margin-top: 30px;
 }
 
 #valor1 {
+    width: 100px;
    position: absolute;
    margin-top: 10px;
    margin-left: 300px;
@@ -163,6 +164,7 @@ margin-top: 30px;
       font-family: 'Times New Roman', Times, serif;
 }
 #valor2 {
+    width: 100px;
     position: absolute;
     margin-left: 300px;
    margin-top: 100px;
