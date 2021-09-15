@@ -7,7 +7,7 @@ var op2 = document.getElementById("op2")
 var botao = document.getElementById("botReset")
 var vl1 = document.getElementById("valor1")
 var vl2 = document.getElementById("valor2")
-var valid
+var valid = 2
 
 var dec = document.getElementById('texto3b')
 $('#logoImg').fadeOut(0)
@@ -25,7 +25,7 @@ function borda() {
 
 }
 function bordaCust() {
-
+    valid = 3
     custom.style.textAlign = 'right'
     custom.style.borderColor = 'hsl(172, 67%, 45%)'
 
@@ -35,8 +35,6 @@ function bordaCust() {
 
 
 }
-
-
 
 function opc1() {
     valid = 0
@@ -91,7 +89,7 @@ function bot2() {
     botao.style.color = 'hsl(7, 49%, 27%)'
 }
 function resetar() {
-
+    valid = 2
     custom.value = ''
     conta.value = ''
 
@@ -102,8 +100,8 @@ function resetar() {
     op2.style.color = 'hsl(46, 76%, 61%)'
 
 
-    vl1.innerHTML = 'R$ 0.00'
-    vl2.innerHTML = 'R$ 0.00'
+    vl1.innerHTML = 'R$ 0,00'
+    vl2.innerHTML = 'R$ 0,00'
     dec.innerHTML = '<b>Acréscimo:</b>'
 }
 
@@ -116,34 +114,40 @@ function calc() { //Calcula a porcentagem selecionada da gorjeta de acordo com o
 
     function calcular() {
         var porcentagem
-
+        var transf = String(conta.value).replace(',','.')
+        var trasfCust = String(custom.value).replace(',','.')
         if (valid == 0) {
-
-            opval1 = parseFloat(conta.value)
+            
+            opval1 = parseFloat(transf)
             porcentagem = opval1 * 5 / 100
             opval1 += porcentagem
             resultado = opval1
-
-            vl1.innerHTML = `R$${porcentagem.toFixed(2)}`
-            vl2.innerHTML = `R$${resultado.toFixed(2)}`
+            
+            vl1.innerHTML = `${porcentagem.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
+            vl2.innerHTML = `${resultado.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`
 
 
         }
         else if (valid == 1) {
-            opval1 = parseFloat(conta.value)
+            
+            opval1 = parseFloat(transf)
             porcentagem = opval1 * 10 / 100
             opval1 += porcentagem
             resultado = opval1
-            vl1.innerHTML = `R$${porcentagem.toFixed(2)}`
-            vl2.innerHTML = `R$${resultado.toFixed(2)}`
+            porcentagem.toFixed(2)
+            resultado.toFixed(2)
+            vl1.innerHTML = `${porcentagem.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
+            vl2.innerHTML = `${resultado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
+
         }
 
-        else if (custom.style.border) {
+        else if (valid == 3) {
 
-            opval1 = parseFloat(conta.value)
-            opvalCustom = parseFloat(custom.value)
-
+            opval1 = parseFloat(transf)
+            opvalCustom = parseFloat(trasfCust)
+           
             if (Math.sign(opvalCustom) == 1) {
+                
                 porcentagem = opval1 * opvalCustom / 100
                 opval1 += porcentagem
                 resultado = opval1
@@ -160,8 +164,9 @@ function calc() { //Calcula a porcentagem selecionada da gorjeta de acordo com o
 
 
         if (conta.value && custom.value) {
-            vl1.innerHTML = `R$${porcentagem.toFixed(2)}`
-            vl2.innerHTML = `R$${resultado.toFixed(2)}`
+            vl1.innerHTML = `${porcentagem.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
+            vl2.innerHTML = `${resultado.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`
+
         }
 
     }
