@@ -165,17 +165,17 @@ margin-top: 30px;
     width: 100px;
    position: absolute;
    margin-top: 10px;
-   margin-left: 170px;
-   font-size: 20pt;
+   margin-left: 160px;
+   font-size: 16pt;
      color:  hsl(81, 76%, 61%);
       font-family: 'Times New Roman', Times, serif;
 }
 #valor2 {
     width: 100px;
     position: absolute;
-    margin-left: 170px;
+    margin-left: 160px;
    margin-top: 100px;
-    font-size: 20pt;
+    font-size: 16pt;
      color:  hsl(81, 76%, 61%);
       font-family: 'Times New Roman', Times, serif;
 }
