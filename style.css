@@ -208,7 +208,7 @@ margin-top: 30px;
     height: 20px;
 }
 #logo h1 {
-    font-size: 15pt;
+    font-size: 12pt;
     text-align: center;
     color: hsl(32, 49%, 29%);
     font-family: monospace;
@@ -868,5 +868,6 @@ margin-top: 25px;
     color: hsl(32, 49%, 29%);
     font-family: monospace;
     text-align: center;
+    
 }
 }
