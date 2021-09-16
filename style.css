@@ -1,3 +1,7 @@
+body {
+    background-color: rgb(70, 57, 57);
+
+}
 
 @media screen and (max-width: 574px) {
 #containerPrimario {
@@ -432,7 +436,7 @@ margin-top: 30px;
  #logo img{
     width: 150px;
     margin-top: 80px;
-    margin-left: 250px; 
+    margin-left: 200px; 
 }
 #logo {
     height: 20px;
@@ -648,7 +652,438 @@ margin-top: 25px;
  #logo img{
     width: 200px;
    margin-top: 10px;
-    margin-left: 280px; 
+    margin-left: 260px; 
+}
+#logo {
+    height: 20px;
+}
+#logo h1 {
+    color: hsl(32, 49%, 29%);
+    font-family: monospace;
+    text-align: center;
+}
+
+}
+@media screen and (min-width: 993px) {
+#containerPrimario {
+    margin-left: none;
+    margin-right: none;
+
+height: 1100px;
+width: 1443px;
+}
+
+#containerSec {
+    position: relative;
+    padding: 1px;
+    margin-top: 250px;
+    background: rgb(194, 154, 95);
+    height: 500px;
+   width: 810px;
+    border-radius: 30px;
+      
+}
+#conta {
+    font-size: 20pt;
+    font-family: Space Mono;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: hsl(7, 49%, 27%);
+
+
+}
+#iconConta {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 15px;
+    color: hsl(7, 49%, 27%);
+}
+#quantidade {
+    font-size: 30pt;
+    font-family: Space Mono;
+    color:hsl(7, 49%, 27%);
+    border: none;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: rgb(235, 252, 252) ;
+    width: 300px;
+    height: 50px;
+}
+#quantidade img {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+
+#iconeP {
+position: absolute;
+margin-left: 40px;
+margin-top: 25px;
+}
+
+#textoSel h3{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: px;
+     color: hsl(7, 49%, 27%);
+     font-size: 18pt;
+}
+#textoSel p{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25px;
+     color: hsl(9, 10%, 39%);
+     font-size: 15pt;
+}
+#opções {
+    display: inline-flex;
+    width:500px;
+    height: 90px;
+    color: hsl(46, 76%, 61%);
+    margin-top: 100px;
+    margin-left: 5px;
+
+}
+#op1 {
+  
+    font-family: Space Mono;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: hsl(32, 49%, 29%);
+    margin-top: 20px;
+    font-size: 30pt;
+}
+#op2 {
+    font-family: Space Mono;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: hsl(32, 49%, 29%);
+    margin-top: 20px;
+    font-size: 30pt;
+}
+
+
+#custom {
+    font-size: 22pt;
+    font-family: Space Mono;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 130px;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(7, 49%, 27%);
+    margin-top: 20px;
+}
+#icoPorcentagem {
+       color: hsl(7, 49%, 27%);
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 165px;
+   
+    font-size: 32pt;
+    height: 35px;
+}
+
+
+
+#containerTerc {
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    margin-left: 400px;
+    margin-top: -210px;
+    background-color:hsl(32, 49%, 29%);
+    border-radius: 15px;
+}
+#texto3a {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 10px;
+    color: hsl(46, 76%, 61%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+#texto3b {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: hsl(46, 76%, 61%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+#texto3a h1{
+  
+    color: hsl(46, 76%, 61%);
+    
+}
+#texto3b h1 {
+  
+    color: hsl(46, 76%, 61%);
+    
+}
+
+#valor1 {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 10px;
+    font-size: 35pt;
+     color:  hsl(81, 76%, 61%);
+      font-family: 'Times New Roman', Times, serif;
+}
+#valor2 {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 285px;
+    font-size: 35pt;
+     color:  hsl(81, 76%, 61%);
+      font-family: 'Times New Roman', Times, serif;
+}
+#iconFinal1 {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 25px;
+    color:  hsl(7, 49%, 27%);
+}
+#botReset {
+    border: none;
+    border-radius: 10px;
+    margin-top: 370px;
+    margin-left: 45px;
+    background-color:hsl(46, 76%, 61%);
+    width: 250px;
+    height: 70px;
+    font-size: 25pt;
+    color: hsl(7, 49%, 27%);
+}
+
+ #logo img{
+    width: 200px;
+   margin-top: 10px;
+    margin-left: 380px; 
+}
+#logo {
+    height: 20px;
+}
+#logo h1 {
+    color: hsl(32, 49%, 29%);
+    font-family: monospace;
+    text-align: center;
+}
+
+}
+
+@media screen and (min-width: 1199px) {
+#containerPrimario {
+    margin-left: none;
+    margin-right: none;
+
+height: 1100px;
+width: 1443px;
+}
+
+#containerSec {
+    position: relative;
+    padding: 1px;
+    margin-top: 250px;
+    background: rgb(194, 154, 95);
+    height: 500px;
+   width: 810px;
+    border-radius: 30px;
+      
+}
+#conta {
+    font-size: 20pt;
+    font-family: Space Mono;
+    margin-top: 40px;
+    margin-left: 30px;
+    color: hsl(7, 49%, 27%);
+
+
+}
+#iconConta {
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+    width: 15px;
+    color: hsl(7, 49%, 27%);
+}
+#quantidade {
+    font-size: 30pt;
+    font-family: Space Mono;
+    color:hsl(7, 49%, 27%);
+    border: none;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: rgb(235, 252, 252) ;
+    width: 300px;
+    height: 50px;
+}
+#quantidade img {
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+
+#iconeP {
+position: absolute;
+margin-left: 40px;
+margin-top: 25px;
+}
+
+#textoSel h3{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: px;
+     color: hsl(7, 49%, 27%);
+     font-size: 18pt;
+}
+#textoSel p{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 25px;
+     color: hsl(9, 10%, 39%);
+     font-size: 15pt;
+}
+#opções {
+    display: inline-flex;
+    width:500px;
+    height: 90px;
+    color: hsl(46, 76%, 61%);
+    margin-top: 100px;
+    margin-left: 5px;
+
+}
+#op1 {
+  
+    font-family: Space Mono;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: hsl(32, 49%, 29%);
+    margin-top: 20px;
+    font-size: 30pt;
+}
+#op2 {
+    font-family: Space Mono;
+    margin-left: 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    background-color: hsl(32, 49%, 29%);
+    margin-top: 20px;
+    font-size: 30pt;
+}
+
+
+#custom {
+    font-size: 22pt;
+    font-family: Space Mono;
+    margin-left: 40px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    width: 130px;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(7, 49%, 27%);
+    margin-top: 20px;
+}
+#icoPorcentagem {
+       color: hsl(7, 49%, 27%);
+    position: absolute;
+    margin-top: 88px;
+    margin-left: 165px;
+   
+    font-size: 32pt;
+    height: 35px;
+}
+
+
+
+#containerTerc {
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    margin-left: 400px;
+    margin-top: -210px;
+    background-color:hsl(32, 49%, 29%);
+    border-radius: 15px;
+}
+#texto3a {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 10px;
+    color: hsl(46, 76%, 61%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+#texto3b {
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 10px;
+    color: hsl(46, 76%, 61%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+#texto3a h1{
+  
+    color: hsl(46, 76%, 61%);
+    
+}
+#texto3b h1 {
+  
+    color: hsl(46, 76%, 61%);
+    
+}
+
+#valor1 {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 10px;
+    font-size: 35pt;
+     color:  hsl(81, 76%, 61%);
+      font-family: 'Times New Roman', Times, serif;
+}
+#valor2 {
+    position: absolute;
+    margin-left: 180px;
+    margin-top: 285px;
+    font-size: 35pt;
+     color:  hsl(81, 76%, 61%);
+      font-family: 'Times New Roman', Times, serif;
+}
+#iconFinal1 {
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 25px;
+    color:  hsl(7, 49%, 27%);
+}
+#botReset {
+    border: none;
+    border-radius: 10px;
+    margin-top: 370px;
+    margin-left: 45px;
+    background-color:hsl(46, 76%, 61%);
+    width: 250px;
+    height: 70px;
+    font-size: 25pt;
+    color: hsl(7, 49%, 27%);
+}
+
+ #logo img{
+    width: 200px;
+   margin-top: 10px;
+    margin-left: 480px; 
 }
 #logo {
     height: 20px;
@@ -865,9 +1300,12 @@ margin-top: 25px;
     height: 20px;
 }
 #logo h1 {
-    color: hsl(32, 49%, 29%);
+    
     font-family: monospace;
     text-align: center;
     
 }
+}
+#logo h1 {
+    color: hsl(32, 21%, 55%);
 }
