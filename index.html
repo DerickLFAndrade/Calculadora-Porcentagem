@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
     <!--Estilos css linkado-->
     <link rel="shortcut icon" href="Graphicloads-Flat-Finance-Percentage.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -29,8 +29,12 @@
         </div>
 
         <section class="container-fluid" id="containerSec">
-            <div id="conta"><B><h2>VALOR:</h2></B></div>
-            <h2 id="iconConta">R$</h2> <input id="quantidade"></input>
+            <span class="cont-qt">
+                <div id="conta"><B>
+                        <h2>R$:</h2>
+                    </B></div>
+                <input id="quantidade"></input>
+            </span>
             <section id="containerSel">
                 <div id="textoSel">
                     <h3><b>Acréscimo/Desconto </b></h3>
@@ -43,32 +47,40 @@
                         <div id="op1"><b>5%</b></div>
                         <div id="op2"><b>10%</b></div>
 
-                        <input type="text" placeholder="Escolher" id="custom">
-                        <p id="icoPorcentagem"><b>%</b></p></input>
+                        <input type="text" placeholder="Escolher %" id="custom">
+
                     </div>
 
-
                     <section class="container" id="containerTerc">
-                        <span id="texto3b">
-                            <p><b>Acréscimo:</b></p>
-                            <hr>
+                    
+                    
+                        <span id="texto-3b-c">
+                            <span><b id="texto3b">Acréscimo:</b>
+                                <hr>
+                            </span>
+                            <span id="valor1">R$ 0,00</span>
+                    
                         </span>
-
+                    
                         <span id="texto3a">
-                            <p><b>Total a pagar:</b></p>
-                            <hr>
+                            <span><b>Total a pagar:</b>
+                                <hr>
+                            </span>
+                            <span id="valor2">R$ 0,00</span>
+                    
                         </span>
-
-                        <span id="valor1">R$ 0,00</span>
-                        <span id="valor2">R$ 0,00</span>
-
-                        <input type="button" value="Resetar" class="btn btn-success" id="botReset">
+                    
+                    
+                    
+                    
+                        <input type="button" value="Resetar"  id="botReset">
                     </section>
+
                 </section>
             </section>
+        </section>
 
-
-
+     
     </div>
 
 

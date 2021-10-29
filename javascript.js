@@ -102,7 +102,7 @@ function resetar() {
 
     vl1.innerHTML = 'R$ 0,00'
     vl2.innerHTML = 'R$ 0,00'
-    dec.innerHTML = '<b>Acréscimo:</b> <hr>'
+    dec.innerHTML = '<b>Acréscimo:</b> '
 }
 
 
@@ -157,7 +157,7 @@ function calc() { //Calcula a porcentagem selecionada da gorjeta de acordo com o
 
                 porcentagem = opval1 * opvalCustom / 100
                 resultado = opval1 + porcentagem
-                dec.innerHTML = '<b>Desconto:</b><hr>'
+                dec.innerHTML = '<b>Desconto:</b>'
             }
 
         }
