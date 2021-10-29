@@ -48,7 +48,6 @@ function opc1() {
 
     conta.style.border = 'none'
     custom.style.border = 'none'
-
     custom.placeholder = 'Escolher %'
     custom.style.textAlign = 'center'
 }
@@ -67,7 +66,7 @@ function opc2() {
     conta.style.border = 'none'
     custom.style.border = 'none'
 
-    custom.placeholder = 'Escolher'
+    custom.placeholder = 'Escolher %'
     custom.style.textAlign = 'center'
 }
 
